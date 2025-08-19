@@ -1,0 +1,1 @@
+Positional encoding is an essential concept in transformer architecture. Transformers process all tokens in parallel, which means that unlike RNNs, which process tokens sequentially, transformers have no sense of order 
