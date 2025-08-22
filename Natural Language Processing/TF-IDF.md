@@ -4,4 +4,9 @@ In human language, words in a sentence can be classified into parts of speech th
 Let's take the *Harry Potter* series as an example. Of the top ten most common words by frequency, the only nouns, verbs, and adjectives present are "Harry" and "said." The rest are "the", "and", "to", "of", "a", "he", "was", and "his". Most of these words are not contextually essential but will top word frequency lists. Using non-contextual frequency tokenization methods like bag-of-words will not yield meaningful information. 
 
 **TD-IDF** <br>
-The Harry Potter series consists of seven books. Let's say that we wanted to determine to degree to which characters are principly significant to specific books; that is, the characters that are more restricted to certain books rather than the whole series like protagonist Harry Potter for instance. In that case, the TD-IDF 
+The Harry Potter series consists of seven books. Let's say that we wanted to determine which characters are principly significant to specific books; that is, the characters that are more restricted to certain books rather than the whole series like protagonist Harry Potter for instance. In that case, the TF-IDF (term frequency - inverse document frequency) can be employed. 
+
+Term frequency simply measures the frequency of a word in a document; it is calculated by: 
+- the ratio of the number of occurrences of a word in a document : the total words in the document
+
+Inverse document frequency measures the 
