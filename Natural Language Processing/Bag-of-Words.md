@@ -1,12 +1,12 @@
 In a colletive body of word sequences (known as a corpus) with n unique words, each unique word in the corpus can be represented as a vector dimension aggregating to an n-unique dimension vector space. Each sequence can then be represented in terms of these word dimensions, with value indicating word frequency across the corpus, with no other information retained. For instance, examine the following sequences:
 
+Group A
 - "these are cats"
 - "these are dogs"
 - "cats are not dogs"
 
 Each sentence can first be broken down into smaller units known as "tokens." Each tokenization can also be represented as vector spaces. 
 
-Group A
 - "these are cats" --> ["these", "are", "cats"] --> [1, 1, 1]
 - "these are dogs" --> ["these", "are", "dogs"] --> [1, 1, 1]
 - "cats are not dogs" --> ["cats", "are", "not", "dogs"] --> [1, 1, 1, 1]
