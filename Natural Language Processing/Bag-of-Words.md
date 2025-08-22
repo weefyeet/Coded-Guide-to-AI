@@ -39,7 +39,7 @@ The corpus vector space of bigrams is represented by the six-dimensional vector 
 - "these are dogs" --> [1, 0, 1, 0, 0, 0]
 - "cats are not dogs" --> [0, 0, 0, 1, 1, 1]
 
-The sum of the vectors is [2, 1, 1, 1, 1, 1]. Compared to the unigram vector [2, 2, 2, 2, 1], the bigram vector provides additional information about the specific repeated phrase "these are" that cannot otherwise be ascertained from the unigram vector. At unigram level context and order are lost, and at higher n, analysis can become quite expensive computationally, thus n-grams of reasonably small n are highly useful in efficiently analyzing context through the frequency of ordered phrases. 
+The sum of the vectors is [2, 1, 1, 1, 1, 1]. Compared to the unigram vector [2, 2, 2, 2, 1], the bigram vector provides additional information about the specific repeated phrase "these are" that cannot otherwise be ascertained from the unigram vector. At unigram level context and order are lost, and at higher n, analysis can become quite expensive computationally, but n-grams of reasonably small n are highly useful in efficiently analyzing context through the frequency of ordered phrases. 
 
 
 
