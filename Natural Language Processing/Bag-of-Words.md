@@ -1,4 +1,4 @@
-BAG OF WORDS
+**BAG OF WORDS** <br>
 In a colletive body of word sequences (known as a corpus) with n unique words, each unique word in the corpus can be represented as a vector dimension aggregating to an n-unique dimension vector space. Each sequence can then be represented in terms of these word dimensions, with value indicating word frequency across the corpus, with no other information retained. For instance, examine the following sequences:
 
 Group A
@@ -21,14 +21,14 @@ The unique terms of the three sentence corpus are thus the five-dimensional vect
 
 The loss of context and order in the vector space lends its nature to the name "bag-of-words" model, where ordered sentences wtih context are jumbled into the unordered space. 
 
-BAG OF N GRAMS
+**BAG OF N GRAMS** <br>
 When the occurrence of particular strings of tokens is important, complete tokenization into the standard bag-of-words model cannot capture the frequency due to loss of order, and thus any context associated with repeated phrases is also lost. However, modifications of the bag-of-words model can address these issues by considering entire phrases as tokens. These exntensions can be classified by phrase size as a "bag of n-grams" model, where n denotes the token length of phrases. Note that phrases are defined as consective, ordered sequences of tokens, which means context is preserved within the n-grams. Let's use Group A as an example once more:
 
 - Unigram: n = 1 (phrase of token length n = 1)
 - Bigram: n = 2 
 - Trigram: n = 3 and so on
 
-Starting with phrases of size n = 2, each sentence in Group A can be broken down into bigrams.
+Starting with phrases of size n = 2, each sentence in Group A can be broken down into bigrams:
 - "these are cats" --> ["these are", "are cats"] --> [1, 1]
 - "these are dogs" --> ["these are", "are dogs"] --> [1, 1]
 - "cats are not dogs" --> ["cats are", "are not", "not dogs"] --> [1, 1, 1]
