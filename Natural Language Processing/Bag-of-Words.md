@@ -1,5 +1,5 @@
 **BAG OF WORDS** <br>
-In a colletive body of word sequences (known as a corpus) with n unique words, each unique word in the corpus can be represented as a vector dimension aggregating to an n-unique dimension vector space. Each sequence can then be represented in terms of these word dimensions, with value indicating word frequency across the corpus, with no other information retained. For instance, examine the following sequences:
+In a collective body of word sequences (known as a corpus) with n unique words, each unique word in the corpus can be represented as a vector dimension aggregating to an n-unique dimension vector space. Each sequence can then be represented in terms of these word dimensions, with value indicating word frequency across the corpus, with no other information retained. For instance, examine the following sequences:
 
 Group A
 - "these are cats"
